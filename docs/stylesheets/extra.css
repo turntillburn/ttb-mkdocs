@@ -13,25 +13,17 @@
 /* 2) Full-width hero on homepage */
 .ttb-hero {
   position: relative;
+  min-height: 60vh;
   background-image: var(--ttb-hero);
   background-size: cover;
   background-position: center;
-  min-height: 60vh; 
-  border-radius: 0;
   padding: 5rem 0;
   margin-top: -1.2rem;
+  border-radius: 0;
 }
 
-/* Dark overlay for readability */
 .ttb-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.55),
-    rgba(0, 0, 0, 0.15)
-  );
+  content: none;
 }
 
 /* Content must sit ABOVE overlay */
