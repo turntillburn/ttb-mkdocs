@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-<div class="ttb-hero" style="--ttb-hero:url('{{ base_url }}/assets/hero.jpg')">
+<div class="ttb-hero" style="--ttb-hero:url('./assets/hero.jpg')">
   <div class="ttb-hero__inner">
     <p class="ttb-hero__eyebrow">Train smart. Climb longer.</p>
     <h1 class="ttb-hero__title">TURNTILLBURN</h1>
