@@ -1,0 +1,212 @@
+/* ---------------------------------------------
+   TURNTILLBURN – Custom styles (Material for MkDocs)
+   --------------------------------------------- */
+
+/* 1) Header / primary color override (neutral grey) */
+:root {
+  --md-primary-fg-color: #4a4a4a;
+  --md-primary-fg-color--dark: #3f3f3f;
+  --md-primary-fg-color--light: #6a6a6a;
+}
+
+/* 2) Full-width hero on homepage */
+.ttb-hero {
+  position: relative;
+  background-image: var(--ttb-hero);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  padding: 5rem 0;
+  margin-top: -1.2rem;
+}
+
+/* Dark overlay for readability */
+.ttb-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.15)
+  );
+}
+
+/* Content must sit ABOVE overlay */
+.ttb-hero__inner {
+  position: relative;
+  z-index: 1;
+
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+/* 3) Hero typography */
+.ttb-hero__eyebrow {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem 0;
+}
+
+.ttb-hero__title {
+  color: #ffffff;
+  font-size: 3.8rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  line-height: 1.08;
+  margin: 0 0 0.75rem 0;
+
+  text-shadow: 0 3px 18px rgba(0, 0, 0, 0.55);
+}
+
+.ttb-hero__lead {
+  color: #ffffff;
+  font-size: 1.35rem;
+  max-width: 60ch;
+  margin: 0 0 1.1rem 0;
+
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+
+/* Secondary note under hero text */
+.ttb-hero__note {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.95rem;
+  margin-top: 0.85rem;
+  max-width: 70ch;
+}
+
+/* 4) Buttons (CTA) */
+.ttb-hero__cta {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.ttb-btn {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 650;
+}
+
+/* Primary button – high contrast, calm */
+.ttb-btn--primary {
+  background: rgba(255, 255, 255, 0.92);
+  color: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+}
+
+.ttb-btn--primary:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+
+/* Ghost button */
+.ttb-btn--ghost {
+  background: rgba(255, 255, 255, 0.78);
+  color: #111;
+}
+
+.ttb-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 5) Product page CTA block (optional helper) */
+.ttb-product-cta {
+  margin: 1rem 0 1.5rem 0;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* 6) Small responsive tweak */
+@media (max-width: 700px) {
+  .ttb-hero {
+    padding: 3.25rem 0;
+  }
+
+  .ttb-hero__title {
+    font-size: 2.6rem;
+  }
+
+  .ttb-hero__lead {
+    font-size: 1.15rem;
+  }
+}
+
+/* Force hero title styling (override Material headings) */
+.ttb-hero .ttb-hero__title {
+  color: #ffffff !important;
+  font-size: 1.5rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+
+  text-shadow: 0 3px 18px rgba(0, 0, 0, 0.60) !important;
+}
+
+.ttb-hero .ttb-hero__title * {
+  color: inherit !important;
+}
+
+.ttb-hero .ttb-hero__title * {
+  color: inherit !important;
+}
+
+/* ---------------------------------------------
+   Product page styling (match hero look)
+   --------------------------------------------- */
+
+.ttb-section {
+  max-width: 75ch;
+}
+
+.ttb-card {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0;
+}
+
+.ttb-muted {
+  opacity: 0.85;
+}
+
+/* Make product CTAs look consistent */
+.ttb-product-cta {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 0.75rem 0 1.25rem 0;
+}
+
+/* Optional: nicer tables */
+.md-typeset table:not([class]) {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header logo sizing + alignment */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 40px;   /* 24–32px ist meist ideal */
+  width: auto;
+}
+
+/* Prevent header from growing too tall */
+.md-header__button.md-logo {
+  padding: 0.2rem 0.4rem;
+  color: #ffffff;
+}

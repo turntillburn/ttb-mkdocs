@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 256 256"
+     role="img"
+     aria-label="TURNTILLBURN Favicon">
+
+  <!--
+    Original-Logo: 178 × 286
+    Skalierung auf volle Höhe: scale = 256 / 286 ≈ 0.8951
+    Horizontale Zentrierung:
+      (256 - 178 * 0.8951) / 2 ≈ 48.36
+  -->
+
+  <g transform="translate(48.36 0) scale(0.8951)">
+
+    <!-- Außenform -->
+    <rect x="21" y="8" width="136" height="270" rx="68" ry="68"
+          fill="#000000"/>
+
+    <!-- oberes Loch -->
+    <circle cx="89" cy="73" r="44"
+            fill="#ffffff"/>
+
+    <!-- senkrechter Schlitz -->
+    <rect x="81" y="116" width="16" height="58"
+          fill="#ffffff"/>
+
+    <!-- unteres Loch / Achse (extra stark für Kleinauflösung) -->
+    <circle cx="89" cy="212" r="38"
+            fill="none" stroke="#ffffff" stroke-width="20"/>
+  </g>
+</svg>
+

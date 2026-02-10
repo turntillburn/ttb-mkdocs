@@ -1,0 +1,42 @@
+site_name: TURNTILLBURN
+site_url: https://new.turntillburn.ch/
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+  language: de
+
+nav:
+  - Start: index.md
+  - Produkt:
+      - Übersicht: product/index.md
+      - Pläne: product/plans/index.md
+      - Bestellen: product/order/index.md
+  - Ratgeber:
+      - Überblick: guide/index.md
+      - Taping: guide/taping/index.md
+  - Medizin:
+      - Überblick: medicine/index.md
+      - Das Ringband: medicine/a2pulley/index.md
+  - Über uns: about.md
+  - Kontakt: contact.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+
+extra:
+  generator: false
+
+copyright: >
+  © 2026 TURNTILLBURN, Rotachstrasse 21, CH-8003 Zürich, Tel.: +41 (0)44 451 67 94,
+  <a href="mailto:admin@turntillburn.ch">admin@turntillburn.ch</a>
+
