@@ -7,6 +7,7 @@
   --md-primary-fg-color: #4a4a4a;
   --md-primary-fg-color--dark: #3f3f3f;
   --md-primary-fg-color--light: #6a6a6a;
+  --ttb-hero: url("../assets/hero.jpg");
 }
 
 /* 2) Full-width hero on homepage */
