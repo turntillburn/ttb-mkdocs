@@ -15,6 +15,7 @@
   background-image: var(--ttb-hero);
   background-size: cover;
   background-position: center;
+  min-height: 60vh; 
   border-radius: 0;
   padding: 5rem 0;
   margin-top: -1.2rem;
