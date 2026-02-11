@@ -20,13 +20,25 @@
   padding: 5rem 0;
   margin-top: -1.2rem;
   border-radius: 0;
+  overflow: hidden; /* wichtig für Overlay */
 }
 
+/* Material-Overlay deaktivieren */
 .ttb-hero::before {
   content: none;
 }
 
-/* Content must sit ABOVE overlay */
+/* Unser eigenes Abdunkelungs-Overlay */
+.ttb-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35); /* Stärke anpassen */
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Content über Overlay */
 .ttb-hero__inner {
   position: relative;
   z-index: 1;
@@ -35,6 +47,7 @@
   margin: 0 auto;
   padding: 0 1.2rem;
 }
+
 
 /* 3) Hero typography */
 .ttb-hero__eyebrow {
