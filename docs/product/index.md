@@ -50,7 +50,7 @@ Die Montage ist **Sache des Users** und lässt sich flexibel an bestehende Aufh�
 
 ## Bilder
 
-![TURNTILLBURN Trainingsgerät](/assets/hero.jpg)
+![TURNTILLBURN Trainingsgerät](../assets/hero.jpg)
 
 ---
 

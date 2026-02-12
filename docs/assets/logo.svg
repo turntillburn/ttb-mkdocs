@@ -8,13 +8,13 @@
 
             <!-- oberes Loch: Durchblick -->
             <circle cx="89" cy="73" r="44"
-                    fill="#000000"/>
+                    fill="#4a4a4a"/>
 
             <!-- senkrechter Schlitz: Durchblick -->
             <rect x="81" y="116" width="16" height="58"
-                  fill="#000000"/>
+                  fill="#4a4a4a"/>
 
             <!-- unteres Loch / Achse: feine Kontur -->
             <circle cx="89" cy="212" r="38"
-                    fill="none" stroke="#000000" stroke-width="2"/>
+                    fill="none" stroke="#4a4a4a" stroke-width="3"/>
 </svg>
