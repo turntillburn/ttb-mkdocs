@@ -35,20 +35,7 @@ aber es ist ein Werkzeug, um **kontrolliert bis an die Belastungsgrenze** zu geh
 
 > **Hinweis:** Kein medizinisches Produkt.  
 > Der begleitende Ratgeber dient der Information und ersetzt keine ärztliche Beratung.
-
----
-
-## Konstruktion & Material
-
-TURNTILLBURN ist bewusst **mechanisch simpel** aufgebaut:
-
-- **Zwei rotierende Rohre**, gelagert auf **vier Kugellagern**
-- **Massive Achse** (Ø **17 mm**)
-- **Zwei stabile Aufhänge-Laschen**
-- **Aluminium, schwarz eloxiert**
-- **Praktisch unzerstörbar**, für langjährige Nutzung
-
-Die Montage ist **Sache des Users** und lässt sich flexibel an bestehende Aufhängungen anpassen.
+> Die Montage ist **Sache des Users** und lässt sich flexibel an bestehende Aufhängungen anpassen.
 
 ---
 
@@ -57,11 +44,63 @@ Die Montage ist **Sache des Users** und lässt sich flexibel an bestehende Aufh�
 - Kletterer, die ihre Trainingsbelastung **gezielt dosieren** wollen  
 - Trainer, die Einheiten **reproduzierbar** gestalten möchten  
 - Athleten, die „bis es brennt“ trainieren wollen –  
-  ohne dass die Haut zuerst limitiert
 
 ---
 
-## Bilder
+## Bewegungsvarianten
+
+Das TURNTILLBURN ist in zwei Bewegungsvarianten erhältlich.
+
+---
+
+### TURNTILLBURN Free
+
+Beim **TURNTILLBURN Free** arbeiten beide Hände auf zwei getrennten Rohren.
+
+Jedes Rohr ist auf zwei Rillenkugellagern gelagert.  
+Insgesamt sind somit vier Lager verbaut.
+
+Die beiden Rohre sind mechanisch nicht miteinander verbunden.  
+Jede Hand erzeugt und kontrolliert ihre Rotation unabhängig.
+
+Biomechanisch bedeutet dies:
+
+- Jede Hand muss ihre Kraft selbstständig aufbauen.  
+- Seitendifferenzen werden unmittelbar sichtbar und spürbar.  
+- Eine dominante Seite kann die andere nicht mechanisch mitziehen.  
+- Die neuromuskuläre Ansteuerung erfolgt differenziert für beide Hände.  
+
+Da beim Klettern selten symmetrische Belastungssituationen vorliegen, entspricht diese Variante der realen Beanspruchung näher.
+
+**TURNTILLBURN Free** stellt höhere koordinative Anforderungen und erlaubt eine präzise Dosierung der Belastung pro Seite.
+
+Diese Ausführung entspricht unserer bevorzugten Variante.
+
+---
+
+### TURNTILLBURN Sync
+
+Beim **TURNTILLBURN Sync** arbeiten beide Hände auf einem durchgehenden Rohr.
+
+Das Rohr ist auf zwei Rillenkugellagern gelagert.
+
+Die Rotation erfolgt als geschlossene Einheit.  
+Beide Hände bewegen denselben Rollkörper.
+
+Die Kraftübertragung ist mechanisch gekoppelt.  
+Eine Seite kann die andere unterstützen oder stabilisieren.
+
+Diese Variante vermittelt ein ruhiges und stabiles Bewegungsgefühl und reduziert den koordinativen Anspruch.
+
+---
+
+## Wahl der Variante
+
+Die Wahl zwischen **TURNTILLBURN Free** und **TURNTILLBURN Sync** richtet sich nach persönlicher Präferenz, Trainingsziel und Einsatzbereich.
+
+Beide Varianten basieren auf derselben konstruktiven Grundlage und erfüllen dieselben Anforderungen hinsichtlich Materialqualität, Lagerung und Fertigungspräzision.
+
+---
 
 ![TURNTILLBURN Trainingsgerät](../assets/hero-desktop.jpg)
 

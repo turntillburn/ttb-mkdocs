@@ -224,3 +224,12 @@
   padding: 0.2rem 0.4rem;
   color: #ffffff;
 }
+
+/* ---------------------------------------------
+   External links: add subtle ↗ indicator
+   --------------------------------------------- */
+
+.md-typeset a[href^="http"]::after {
+  content: " ↗";
+  font-size: 0.85em;
+}
