@@ -17,6 +17,9 @@ nav:
       - Übersicht: product/index.md
       - Pläne: product/plans/index.md
       - Bestellen: product/order/index.md
+  - Training:
+      - Übersicht: training/index.md
+      - Glossar: training/glossar.md
   - Ratgeber:
       - Überblick: guide/index.md
       - Taping: guide/taping/index.md
