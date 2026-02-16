@@ -22,10 +22,3 @@ hide:
     </div>
   </div>
 </div>
-
-## Medizinischer Hinweis
-
-Die Inhalte des Ratgebers dienen der allgemeinen Information und Wissensvermittlung.  
-Sie ersetzen keine medizinische Beratung, Diagnose oder Behandlung durch qualifizierte Fachpersonen.
-
-Bei anhaltenden Beschwerden, Schmerzen oder akuten Verletzungen wird empfohlen, ärztlichen Rat einzuholen.
