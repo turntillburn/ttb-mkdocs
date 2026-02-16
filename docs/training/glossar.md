@@ -106,8 +106,10 @@ Drehung der Hand, sodass der Handrücken nach oben oder nach vorne zeigt.
 **Wortherkunft:**  
 lateinisch *pronare* = nach vorne beugen  
 
-**Merkhilfe:**  
-Wenn du deine Handrücken siehst → Pronation.
+**Merkhilfe:**
+
+Pronation = Brotschneiden
+Beim **Brotschneiden** ist die haltende Hand proniert – der Handrücken zeigt nach oben.
 
 ---
 
