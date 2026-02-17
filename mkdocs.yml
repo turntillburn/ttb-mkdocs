@@ -24,14 +24,21 @@ nav:
       - Überblick: guide/index.md
       - Taping: guide/taping/index.md
       - Schulter: guide/shoulder/index.md
+      - Finger und Hand: guide/finger_hand/index.md
   - Medizin:
       - Überblick: medicine/index.md
       - Das Ringband: medicine/a2pulley/index.md
   - Über uns: about.md
   - Kontakt: contact.md
 
+extra_javascript:
+  - javascripts/close-fallback.js
+  - guide/finger_hand/overlib_compat.js
+  - guide/finger_hand/tooltiptexte_mkdocs.js
+
 extra_css:
   - stylesheets/extra.css
+  - guide/finger_hand/finger_hand.css
 
 markdown_extensions:
   - admonition
