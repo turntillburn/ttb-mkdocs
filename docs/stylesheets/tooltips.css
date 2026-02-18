@@ -25,6 +25,12 @@
   overflow-wrap: anywhere;
 }
 
+/* Wenn der Tooltip Inhalt hat, darf er nicht „verschluckt“ werden */
+.ttb-hand-tooltip:not(:empty),
+#overDiv:not(:empty){
+  display: block !important;
+}
+
 /* Links */
 .ttb-hand-tooltip a,
 #overDiv a{
@@ -44,22 +50,19 @@
   margin: .2rem 0;
 }
 
-
 /* ==========================
    MOBILE OPTIMIERUNG
    ========================== */
 
 @media (max-width: 600px){
-  .ttb-hand-tooltip{
+  .ttb-hand-tooltip,
+  #overDiv{
     font-size: 1.05rem !important;
     line-height: 1.45 !important;
+
     max-width: calc(100vw - 1.5rem) !important;
     width: calc(100vw - 1.5rem) !important;
-    padding: 1rem !important;
-  }
 
-  /* Wenn der Tooltip Inhalt hat, darf er nicht durch CSS/JS „verschluckt“ werden */
-  .ttb-hand-tooltip:not(:empty){
-    display: block !important;
+    padding: 1rem !important;
   }
 }
