@@ -127,3 +127,25 @@ window.OFFSETY = 1;
     if (tip.style.display === "block") positionOnce(lastMouse.x, lastMouse.y);
   });
 })();
+
+// --- MkDocs Wrapper: showTooltip/hideTooltip (für image maps) ---
+window.showTooltip = function (html, event) {
+  // overlib_compat.js stellt overlib() bereit
+  return overlib(
+    html,
+    STICKY,
+    MOUSEOFF,
+    WRAP,
+    CELLPAD,
+    5,
+    OFFSETX,
+    12,
+    OFFSETY,
+    12
+  );
+};
+
+window.hideTooltip = function () {
+  return nd();
+};
+

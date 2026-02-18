@@ -1,0 +1,65 @@
+/* ==========================================================
+   TURNTILLBURN – Tooltip Styling (global)
+   ========================================================== */
+
+/* Wir stylen sowohl unsere Klasse als auch das klassische overLIB-DIV */
+.ttb-hand-tooltip,
+#overDiv{
+  position: absolute !important;
+  z-index: 9999 !important;
+
+  /* angenehme Lesebreite (Desktop) + sicher auf Mobile */
+  width: min(34ch, calc(100vw - 2rem));
+  max-width: calc(100vw - 2rem);
+  min-width: 22ch;
+
+  padding: .7rem .9rem;
+  border-radius: .6rem;
+
+  background: rgba(25,25,25,.94) !important;
+  color: #ffffff !important;
+
+  box-shadow: 0 12px 28px rgba(0,0,0,.28);
+
+  font-size: .95rem;
+  line-height: 1.35;
+
+  pointer-events: auto;
+
+  /* sauberes Umbruchverhalten */
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.ttb-hand-tooltip a,
+#overDiv a{
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.ttb-hand-tooltip a:hover,
+#overDiv a:hover{
+  text-decoration: none;
+  opacity: .85;
+}
+
+.ttb-hand-tooltip ul,
+#overDiv ul{
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.ttb-hand-tooltip li,
+#overDiv li{
+  margin: .2rem 0;
+}
+
+/* Mobile */
+@media (max-width: 600px){
+  .ttb-hand-tooltip,
+  #overDiv{
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+

@@ -23,8 +23,9 @@ nav:
   - Ratgeber:
       - Überblick: guide/index.md
       - Taping: guide/taping/index.md
-      - Schulter: guide/shoulder/index.md
       - Finger und Hand: guide/finger_hand/index.md
+      - Ellbogen: guide/elbow/index.md
+      - Schulter: guide/shoulder/index.md
   - Medizin:
       - Überblick: medicine/index.md
       - Das Ringband: medicine/a2pulley/index.md
@@ -33,12 +34,13 @@ nav:
 
 extra_javascript:
   - javascripts/close-fallback.js
-  - guide/finger_hand/overlib_compat.js
+  - javascripts/overlib_compat.js
   - guide/finger_hand/tooltiptexte_mkdocs.js
+  - guide/elbow/tooltiptexte_mkdocs.js
 
 extra_css:
   - stylesheets/extra.css
-  - guide/finger_hand/finger_hand.css
+  - stylesheets/tooltips.css
 
 markdown_extensions:
   - admonition

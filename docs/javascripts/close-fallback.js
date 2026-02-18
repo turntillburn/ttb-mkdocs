@@ -8,14 +8,20 @@
       // ignore
     }
 
-    // Wenn es nicht geschlossen wurde (üblich), fallback:
-    // 1) history back, wenn möglich
+    // 1) Wenn möglich: zurück im Verlauf
     if (window.history.length > 1) {
       window.history.back();
       return;
     }
 
-    // 2) sonst auf Finger/Hand Startseite
-    window.location.href = "/guide/finger_hand/";
+    // 2) Fallback: zur übergeordneten Guide-Seite
+    if (window.location.pathname.includes("/guide/")) {
+      window.location.href = "/guide/";
+      return;
+    }
+
+    // 3) Ultimativer Fallback: Startseite
+    window.location.href = "/";
   };
 })();
+
