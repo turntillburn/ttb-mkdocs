@@ -50,16 +50,16 @@
    ========================== */
 
 @media (max-width: 600px){
-
-  .ttb-hand-tooltip,
-  #overDiv{
-    max-width: calc(100vw - 1.5rem);
-    width: calc(100vw - 1.5rem);
-
-    font-size: 1.05rem;
-    line-height: 1.45;
-
-    padding: 1rem;
+  .ttb-hand-tooltip{
+    font-size: 1.05rem !important;
+    line-height: 1.45 !important;
+    max-width: calc(100vw - 1.5rem) !important;
+    width: calc(100vw - 1.5rem) !important;
+    padding: 1rem !important;
   }
 
+  /* Wenn der Tooltip Inhalt hat, darf er nicht durch CSS/JS „verschluckt“ werden */
+  .ttb-hand-tooltip:not(:empty){
+    display: block !important;
+  }
 }
