@@ -1,6 +1,6 @@
 # 🛒 Bestellen
 
-## **TURNTILLBURN Free**  
+## [**TURNTILLBURN Free**](../plans/#turntillburn-free)  
 
 Preis: <big>**230 CHF**</big>  
 <small>inklusive Verpackung & Versand (Schweiz)</small>  
@@ -28,13 +28,10 @@ Preis: <big>**230 CHF**</big>
 
 ---
 
-## **TURNTILLBURN Sync**
+## [**TURNTILLBURN Sync**](../plans/#turntillburn-sync)
 
 Preis: <big>**180 CHF**</big>  
 <small>inklusive Verpackung & Versand (Schweiz)</small>
-
-
-
 
 <div style="display:flex;flex-wrap:wrap;align-items:center;gap:2rem;margin:1.5rem 0;">
 

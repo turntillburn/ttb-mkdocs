@@ -22,8 +22,8 @@ Die Konstruktion erfolgte in Zusammenarbeit mit der Schweizer Firma <a href="htt
 Die vorliegenden Zeichnungen entsprechen industriellen Fertigungsunterlagen mit vollständigen Material-, Lager- und Toleranzangaben.
 
 ---
-## **TURNTILLBURN Free**
-(zwei getrennte Rohre):
+## [**TURNTILLBURN Free**](../order/#turntillburn-free)
+<small>(zwei getrennte Rohre)</small>
 
 ![TURNTILLBURN Free](../../assets/images/ttb-free-cross-section.jpg)
 
@@ -34,8 +34,8 @@ Die vorliegenden Zeichnungen entsprechen industriellen Fertigungsunterlagen mit 
 
 ---
 
-## **TURNTILLBURN Sync**
-(ein durchgehendes Rohr):
+## [**TURNTILLBURN Sync**](../order/#turntillburn-sync)
+<small>(ein durchgehendes Rohr)</small>
 
 ![TURNTILLBURN Sync](../../assets/images/ttb-sync-cross-section.jpg)
 
