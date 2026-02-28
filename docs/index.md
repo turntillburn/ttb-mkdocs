@@ -17,8 +17,9 @@ hide:
     </p>
 
     <div class="ttb-hero__cta">
-      <a class="ttb-btn ttb-btn--primary" href="product/">Zum Produkt</a>
-      <a class="ttb-btn ttb-btn--ghost" href="guide/">Zum Ratgeber</a>
+      <a class="ttb-btn ttb-btn--primary" href="product/">Produkt</a>
+      <a class="ttb-btn ttb-btn--ghost" href="guide/">Ratgeber</a>
+      <a class="ttb-btn ttb-btn--ghost" href="verticalsecrets/">Vertical secrects</a>
     </div>
   </div>
 </div>

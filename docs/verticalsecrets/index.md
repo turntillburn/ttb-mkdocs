@@ -1,9 +1,9 @@
-# Vertical Secrets (PDF)
+# Vertical secrets (als PDF)
 
-![Cover: Vertical Secrets](assets/vs-cover.png){ width="360" }
+![Cover: Vertical secrets](assets/vs-cover.png){ width="360" }
 
-**„Vertical Secrets“ ist seit längerer Zeit vergriffen und wird nicht mehr nachgedruckt.**  
-Damit das Wissen weiterhin zugänglich bleibt, stellen wir das Buch hier **kapitelweise als PDF** zur Verfügung.
+**[„Vertical secrets“](../verticalsecrets/content.md) ist seit längerer Zeit vergriffen und wird nicht mehr nachgedruckt.**  
+Damit das Wissen weiterhin zugänglich bleibt, stellen wir das Buch hier sowohl kapitelweise als auch als vollständiges PDF (ca. 420 MB) zum Download zur Verfügung.
 
 ## Freiwilliger Beitrag (PayPal)
 

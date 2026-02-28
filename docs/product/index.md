@@ -1,5 +1,11 @@
 # TURNTILLBURN
 
+![TURNTILLBURN Trainingsgerät](../assets/images/ttb-product.png)
+
+
+> Reduziert auf das Wesentliche.  
+> Ein Trainingsgerät für Kletterer, die Belastung bewusst steuern wollen.
+
 
 <iframe
   width="100%"
@@ -11,10 +17,6 @@
   allowfullscreen>
 </iframe>
 
-
-
-> Reduziert auf das Wesentliche.  
-> Ein Trainingsgerät für Kletterer, die Belastung bewusst steuern wollen.
 
 
 ## Warum TURNTILLBURN?
@@ -99,11 +101,5 @@ Diese Variante vermittelt ein ruhiges und stabiles Bewegungsgefühl und reduzier
 Die Wahl zwischen **TURNTILLBURN Free** und **TURNTILLBURN Sync** richtet sich nach persönlicher Präferenz, Trainingsziel und Einsatzbereich.
 
 Beide Varianten basieren auf derselben konstruktiven Grundlage und erfüllen dieselben Anforderungen hinsichtlich Materialqualität, Lagerung und Fertigungspräzision.
-
----
-
-![TURNTILLBURN Trainingsgerät](../assets/hero-desktop.jpg)
-
----
 
 
