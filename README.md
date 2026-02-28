@@ -288,7 +288,16 @@ Typischer Ablauf:
 1. Mit FTP-Programm (z.B. FileZilla) verbinden  
 2. Inhalt von `site/` auswählen  
 3. Auf den Webserver hochladen  
-4. Vorhandene Dateien überschreiben  
+4. Vorhandene Dateien überschreiben 
+
+oder
+
+scp -r site/ <user>@<host>:/path/to/htdocs/www.turntillburn.ch/
+
+dann die PDF kopieren
+
+ssh <user>@<host>
+cp Buch-Vertical-secrects-PDF/*.pdf www.turntillburn.ch/verticalsecrets/assets/pdf/.
 
 ---
 
