@@ -21,20 +21,24 @@ nav:
       - Übersicht: training/index.md
       - Glossar: training/glossar.md
   - Ratgeber:
-      - Überblick: guide/index.md
+      - Übersicht: guide/index.md
       - Taping: guide/taping/index.md
       - Finger und Hand: guide/finger_hand/index.md
       - Ellbogen: guide/elbow/index.md
       - Schulter: guide/shoulder/index.md
   - Medizin:
-      - Überblick: medicine/index.md
+      - Übersicht: medicine/index.md
       - Das Ringband: medicine/a2pulley/index.md
+  - Vertical secrets:
+      - Übersicht: verticalsecrets/index.md
+      - Inhalt: verticalsecrets/content.md
   - Über uns: about.md
   - Kontakt: contact.md
 
 extra_javascript:
   - javascripts/close-fallback.js
   - javascripts/overlib_compat.js
+  - javascripts/paypal.js
   - guide/finger_hand/tooltiptexte_mkdocs.js
   - guide/elbow/tooltiptexte_mkdocs.js
 
